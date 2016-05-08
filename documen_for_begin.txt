@@ -1,28 +1,23 @@
 https://www.youtube.com/watch?v=73I5dRucCds
-
-https://aliozgur.gitbooks.io/git101/content/bolum_1_-_baslangic/projeniz_uzerinde_calismaya_baslayalim.html
-
 --> git bash indir...(https://git-scm.com/download/win)
+
 --> git config --global user.name "omeraygoren" gitteki username
 --> git config --gloabl user.email "omeraygoren@windowslive.com" gitteki email adresi
---> git clear    bash ekranÄ± temizler. 
---> ls -la klasrÃ¶Ã¼n altÄ±ndaki dosyalarÄ± listeler
+--> git clear    bash ekranı temizler. 
+--> cd diyerek normal yola giderim ben simdi bunu
+--> git clone https://github.com/omeraygoren/InventoryTracking.git diyerek gihubdan verilerimi alırım
 --> ls listeler
---> cd diyerek normal yola giderim 
---> git clone https://github.com/omeraygoren/InventoryTracking.git diyerek gihubdan verilerimi alÄ±rÄ±m
---> vim README.md dosyanÄ±n iÃ§ini aÃ§ar dÃ¼zeltme yapabiliriz
---> git status   kodlarda yapÄ±lan deÄŸiÅŸiklerin durumlarÄ±nÄ± gÃ¶sterir.
---> git add -A stages All
+--> vim README.md dosyanın içini açar düzeltme yapabiliriz
+--> git status   kodlarda yapılan değişiklerin durumlarını gösterir.
+--> git add README.md or git add Login
+    git add -A stages All
     git add . stages new and modified, without deleted
     git add -u stages modified and deleted, without new
---> git commit -m "niÃ§in update ettim"
---> YukarÄ±daki iki komut'u arka arkaya kullanmak yerine(add ile commit yerine)
-    aynÄ± iÅŸlemi :  git commit -a komutu ile de yapabiliriz.
+--> git commit -m "niçin update ettim"
 --> git remote add origin https://github.com/omeraygoren/InventoryTracking.git
 --> git push -u origin "branchismi" commiti tamamlar.
---> touch testfile.txt  --txt dosyasÄ±nÄ± localimde olusturur.
+--> touch testfile.txt  --txt dosyasını localimde olusturur.
 --> git pull origin "branchismi"  update ceker
+--> git pull origin "branchismi"  update ceker.....
 
---> git [komut adÄ±] --help (Ã¶rneÄŸin: git init --help)
-    git help [komut adÄ±] (Ã¶rneÄŸin: git help init)
-
+...bukadar
