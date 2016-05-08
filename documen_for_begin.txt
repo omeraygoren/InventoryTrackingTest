@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=73I5dRucCds
+
+https://aliozgur.gitbooks.io/git101/content/bolum_1_-_baslangic/projeniz_uzerinde_calismaya_baslayalim.html
+
+--> git bash indir...(https://git-scm.com/download/win)
+--> git config --global user.name "omeraygoren" gitteki username
+--> git config --gloabl user.email "omeraygoren@windowslive.com" gitteki email adresi
+--> git clear    bash ekraný temizler. 
+--> ls -la klasröün altýndaki dosyalarý listeler
+--> ls listeler
+--> cd diyerek normal yola giderim 
+--> git clone https://github.com/omeraygoren/InventoryTracking.git diyerek gihubdan verilerimi alýrým
+--> vim README.md dosyanýn içini açar düzeltme yapabiliriz
+--> git status   kodlarda yapýlan deðiþiklerin durumlarýný gösterir.
+--> git add -A stages All
+    git add . stages new and modified, without deleted
+    git add -u stages modified and deleted, without new
+--> git commit -m "niçin update ettim"
+--> Yukarýdaki iki komut'u arka arkaya kullanmak yerine(add ile commit yerine)
+    ayný iþlemi :  git commit -a komutu ile de yapabiliriz.
+--> git remote add origin https://github.com/omeraygoren/InventoryTracking.git
+--> git push -u origin "branchismi" commiti tamamlar.
+--> touch testfile.txt  --txt dosyasýný localimde olusturur.
+--> git pull origin "branchismi"  update ceker
+
+--> git [komut adý] --help (örneðin: git init --help)
+    git help [komut adý] (örneðin: git help init)
+
+omeraygoren
+6637Omer
