@@ -5,26 +5,24 @@ https://aliozgur.gitbooks.io/git101/content/bolum_1_-_baslangic/projeniz_uzerind
 --> git bash indir...(https://git-scm.com/download/win)
 --> git config --global user.name "omeraygoren" gitteki username
 --> git config --gloabl user.email "omeraygoren@windowslive.com" gitteki email adresi
---> git clear    bash ekranı temizler. 
---> ls -la klasröün altındaki dosyaları listeler
+--> git clear    bash ekranÄ± temizler. 
+--> ls -la klasrÃ¶Ã¼n altÄ±ndaki dosyalarÄ± listeler
 --> ls listeler
 --> cd diyerek normal yola giderim 
---> git clone https://github.com/omeraygoren/InventoryTracking.git diyerek gihubdan verilerimi alırım
---> vim README.md dosyanın içini açar düzeltme yapabiliriz
---> git status   kodlarda yapılan değişiklerin durumlarını gösterir.
+--> git clone https://github.com/omeraygoren/InventoryTracking.git diyerek gihubdan verilerimi alÄ±rÄ±m
+--> vim README.md dosyanÄ±n iÃ§ini aÃ§ar dÃ¼zeltme yapabiliriz
+--> git status   kodlarda yapÄ±lan deÄŸiÅŸiklerin durumlarÄ±nÄ± gÃ¶sterir.
 --> git add -A stages All
     git add . stages new and modified, without deleted
     git add -u stages modified and deleted, without new
---> git commit -m "niçin update ettim"
---> Yukarıdaki iki komut'u arka arkaya kullanmak yerine(add ile commit yerine)
-    aynı işlemi :  git commit -a komutu ile de yapabiliriz.
+--> git commit -m "niÃ§in update ettim"
+--> YukarÄ±daki iki komut'u arka arkaya kullanmak yerine(add ile commit yerine)
+    aynÄ± iÅŸlemi :  git commit -a komutu ile de yapabiliriz.
 --> git remote add origin https://github.com/omeraygoren/InventoryTracking.git
 --> git push -u origin "branchismi" commiti tamamlar.
---> touch testfile.txt  --txt dosyasını localimde olusturur.
+--> touch testfile.txt  --txt dosyasÄ±nÄ± localimde olusturur.
 --> git pull origin "branchismi"  update ceker
 
---> git [komut adı] --help (örneğin: git init --help)
-    git help [komut adı] (örneğin: git help init)
+--> git [komut adÄ±] --help (Ã¶rneÄŸin: git init --help)
+    git help [komut adÄ±] (Ã¶rneÄŸin: git help init)
 
-omeraygoren
-6637Omer
